@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/Lato/lato.css">
+</head>
+<body>
+    <header class="header">
+      <div class="wrapper">
+         <div class="up">
+            <a href="index.html"> <img class="logo" src="images/logo.svg" alt="Logo"></a>
+            <div class="city">
+               <img src="images/geolocation-icon.svg" alt="Geolocation icon">
+               <button href="#">Уссурийск</button>
+            </div>
+            <img class="burger-mobile" src="images/bars-icon.svg" alt="Bars">
+         </div>
+         <div class="down">
+            <ul class="header-menu">
+               <li><a href="#">Адреса аптек</a></li>
+               <li><a href="#">Доставка</a></li>
+               <li><a href="#">О нас</a></li>
+               <li><a href="#">Новинки</a></li>
+                <li><img src="images/connect.svg" alt=""><a href="#">Быстрая связь</a></li>
+            </ul>
+            <div class="ph-number">
+               <img src="images/phone-icon.svg" alt="Phone icon">
+               <p class="ph-number">+79990000000</p>
+            </div>
+            <div class="choice-city">
+               <a class="choice-city-1" href="#">Уссурийск</a>
+               <div></div>
+               <a class="choice-city-2" href="#">п.Михайловка</a>
+            </div>
+         </div>
+             <div class="hat-page">
+        <div class="wrapper">
+               <div class="hat-header flex">
+                  <button class="catalog-btn">
+                     <img src="images/burger-button.svg" alt="Menu icon">
+                     <p>Каталог товаров</p>
+                  </button>
+                  <div class="hat-market">
+                     <form id="form-search" class="search">
+                        <input  type="text">
+                        <button  form="form-search" class="search-btn" ><img src="images/find-icon.svg" alt="Find icon"></button>
+                     </form>
+                     <a href="#" class="favorite"><img src="images/favorite-icon.svg" alt="Favorite"></a>
+                     <a href="#" class="basket"><img src="images/basket-logo.svg" alt="Market basket"></a>
+                  </div>
+               </div>
+        </div>
+   </div>
+      </div>
+    </header>       
+    <header class="header-mobile">
+      <div class="wrapper">
+         <div class="header-mobile__items">
+            <div class="contacts">
+               <div class="city-mobile">
+                  <img src="images/geolocation-icon.svg" alt="Geolocation icon">
+                  <button href="#">г. Уссурийск</button>
+               </div>
+               <div class="ph-number-mobile">
+                  <img src="images/phone-icon.svg" alt="Phone icon">
+                  <p class="ph-number-mobile">+79990000000</p>
+               </div>
+            </div>
+            <div class="header-menu-mobile">
+               <img class="bars-mobile" src="images/bars-icon.svg" alt="Burger">
+               <a href="index.html"><img class="logo-mobile" src="images/logo.svg" alt="Logo"></a>
+               <img class="favorite-mobile" src="images/favorite-icon.svg" alt="Favorite icon">
+               <img class="basket-mobile" src="images/basket-logo.svg" alt="Shopping basket">
+            </div>
+            <form id="form-search-mobile" class="search-mobile">
+               <input value="Введите название товара" type="text">
+               <button  form="form-search-mobile" class="search-btn-mobile" ><img src="images/find-icon.svg" alt="Find icon"></button>
+            </form>
+         </div>
+      </div>
+    </header>
+    <div class="basket-form-page">
+        <div class="wrapper">
+            <ul class="crumbs">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="basket.html">Корзина</a></li>
+                <li><a href="index.html">Выберите аптеку и дату получения заказа</a></li>
+                <li class="crumb-active">Оформление заказа</li>
+            </ul>
+            <h2 class="h-page">Корзина</h2>
+            <div class="divider"></div>
+            <div class="wrapper-order">
+                <div class="pharmacy flex">
+                    <div class="pharmacy-text">
+                        <p>Аптека на Русской, 4</p>
+                        <span>г. Уссурийск, ул. Русская, д. 4</span>
+                    </div>
+                    <div class="sum">129.00 ₽</div>
+                </div>
+                <div class="attention">Время сборки увеличено, ожидайте сообщения о готовности. Время сборки увеличено, ожидайте сообщения о готовности</div>
+                <ul class="list-order">
+                    <li>Аквирин орал спрей 25мл</li>
+                    <li>Аквирин орал спрей 25мл</li>
+                    <li>Аквирин орал спрей 25мл</li>
+                    <li>Аквирин орал спрей 25мл</li>
+                </ul>
+                <div class="order-form">
+                    <h4>Заполните анкету для получения заказа:</h4>
+                    <div class="form-1line flex">
+                        <div class="form-name">
+                            <p>Ваше имя</p>
+                            <input type="text">
+                        </div>
+                        <div class="form-phone">
+                            <p>Ваш телефон</p>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="form-comment">
+                        <p>Коментарии к заказу</p>
+                        <input type="text">
+                    </div>
+                    <div class="btns-order-form flex">
+                        <button class="pay-offline">Оплатить заказ при получении</button>
+                        <button class="pay-online">Оплатить заказ онлайн</button>
+                    </div>
+                    <p class="form-personal-information">Нажимая кнопку, вы принимаете условия Соглашения об использовании интернет-сервиса, Политики обработки персональных данных,<br> cогласия пользователя, включающего ваше согласие на обработку ООО Холдинг «Монастырёв и Ко» ваших персональных данных,<br> в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных»</p>
+                    <img class="payments" src="images/Payments.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="basket-form-page-mobile">
+        <div class="wrapper">
+            <ul class="crumbs">
+                <li><a href="index.html">Главная</a></li>
+                <li class="crumb-active">Корзина</li>
+            </ul>
+            <h2 class="h-page">Оформление заказа</h2>
+            <p class="pharmacy-name-basket-form-mobile">Аптека на Русской, 4</p>
+            <span>г. Уссурийск, ул. Русская, д. 4</span>
+            <div class="divider-basket-form-page-mobile"></div>
+            <p class="time-basket-form-page">Сегодня</p>
+            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+            <h3>Данные по заказу:</h3>
+            <p class="list-basket-form-mobile">Аквирин орал спрей 25мл</p>
+            <div class="flex">
+                <p class="text-price-basket-form-mobile">Стоимость</p>
+                <p class="price-basket-form-mobile">129.00 ₽</p>
+                <p class="old-price-basket-form-mobile">159.00 ₽</p>
+            </div>
+            <h3>Заполните анкету для получения заказа</h3>
+            <div class="forms-basket-mobile">
+                <p>Ваш телефон</p>
+                <input type="text">
+                <p>Ваш имя</p>
+                <input type="text">
+                <p>Коментарии к заказу</p>
+                <input type="text">
+            </div>
+            <button class="pay-offline-mobile">Оформить заказ при получении</button>
+            <button class="pay-online-mobile">Оплатить заказ онлайн</button>
+            <p class="personal-form-mobile">Нажимая кнопку, вы принимаете условия Соглашения об использовании интернет-сервиса, Политики обработки персональных данных, Согласия пользователя, включающего ваше согласиена обработку ООО «Здравница» ваших персональных данных в соответствии с Федеральным закономот 27.07.2006 года №152-ФЗ «О персональных данных»</p>
+            <img src="images/Payments.svg" alt="">
+        </div>
+    </div>
+    <footer class="footer">
+      <div class="wrapper">
+         <div class="footer-colums">
+            <div class="footer-colum1">
+               <div class="catalog-footer">
+                  <h2 class="catalog-h-footer">Каталог</h2>
+                  <ul>
+                     <li><a href="#">Питание</a></li>
+                     <li><a href="#">Аптечные товары</a></li>
+                     <li><a href="#">Для дома</a></li>
+                     <li><a href="#">Малышам и мамам</a></li>
+                     <li><a href="#">Косметика</a></li>
+                     <li><a href="#">Медицинские приборы</a></li>
+                     <li><a href="#">Акции</a></li>
+                  </ul>
+               </div>
+               <div class="social-footer">
+                  <h2>Наши страницы в соц.сетях</h2>
+                  <div class="social-images">
+                     <img src="images/vk-icon.svg" alt="">
+                     <img src="images/ok-icon.svg" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="footer-colum2">
+               <div class="Buyer-footer">
+                  <h2 class="Buyer-h-footer">Покупателям</h2>
+                  <ul>
+                     <li><a href="#">Адреса аптек</a></li>
+                     <li><a href="#">Доставка</a></li>
+                     <li><a href="#">О нас</a></li>
+                     <li><a href="#">Новинки</a></li>
+                  </ul>
+               </div>
+            </div>   
+            <div class="footer-colum3">
+               <div class="help-footer">
+                  <h2 class="Buyer-h-footer">Помощь</h2>
+                  <ul>
+                     <li><a href="#">О дистанционной торговле</a></li>
+                     <li><a href="#">Разрешение на дистанционную торговлю</a></li>
+                     <li><a href="#">Пользовательское соглашение</a></li>
+                     <li><a href="#">Согласие на обработку персональных данных</a></li>
+                     <li><a href="#">Политика обработки персональных данных</a></li>
+                  </ul>
+               </div>
+               <div class="footer-mail">
+                  <h2>Подписаться на наши новости</h2>
+                  <div class="mail">
+                     <form id="form-mail"><input type="text"></form>
+                     <button form="form-mail">Подписаться</button>
+                  </div>
+               </div>
+               <div class="checkbox-mail">
+                  <div class="checkbox"> 
+                     <label class="checkbox-label">
+                        <span class="check_box"></span>
+                        <input class="checkbox-input-mail" type="checkbox" form="form-mail" required>
+                        <p>Соглашаюсь получать новостную рассылку</p> 
+                     </label>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="end-title">
+            <p>“Здравница” 2022. Все права защищены.</p> 
+         </div>
+      </div>
+    </footer>
+    <footer class="footer-mobile">
+      <div class="wrapper">
+         <div class="btns-footer-mobile">
+            <button class="list">
+               <h4>Каталог</h4>
+               <img src="images/arrow-down-icon.svg" alt="Arrow down">
+            </button>
+            <button class="list">
+               <h4>Покупателям</h4>
+               <img src="images/arrow-down-icon.svg" alt="Arrow down">
+            </button>
+            <button class="list">
+               <h4>Помощь</h4>
+               <img src="images/arrow-down-icon.svg" alt="Arrow down">
+            </button>
+         </div> 
+         <div class="social-footer-mobile">
+            <h3>Наши страницы в соц.сетях</h3>
+            <div class="social-footer-img-mobile">
+               <img src="images/vk-icon.svg" alt="VK icon">
+               <img src="images/ok-icon.svg" alt="Ok icon">
+            </div>
+         </div>
+         <div class="mail-footer-mobile">
+            <h3>Подписаться на наши новости</h3>
+            <form id="mail-footer-mobile">
+               <input type="text">
+               <button form="mail-footer-mobile">Подписаться</button>  
+            </form>
+            <div class="checkbox-mail-mobile">
+               <div class="checkbox"> 
+                  <label class="checkbox-label">
+                     <span class="check_box"></span>
+                     <input class="checkbox-input-mail-mobile" type="checkbox" form="form-mail-mobile" required>
+                     <p>Соглашаюсь получать новостную рассылку</p> 
+                  </label>
+               </div>
+            </div>
+         </div>
+         <div class="end-title-mobile">
+            <p>“Здравница” 2022.<br>Все права защищены.</p> 
+         </div>
+      </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Здравница</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="fonts/Lato/lato.css">
+</head>
+<body>
+
+   <!-- HEADER -->
+
+   <header class="header">
+      <div class="wrapper">
+         <div class="up">
+            <a href="index.html"> <img class="logo" src="images/logo.svg" alt="Logo"></a>
+            <div class="city">
+               <img src="images/geolocation-icon.svg" alt="Geolocation icon">
+               <button href="#">Уссурийск</button>
+            </div>
+            <img class="burger-mobile" src="images/bars-icon.svg" alt="Bars">
+         </div>
+         <div class="down">
+            <ul class="header-menu">
+               <li><a href="#">Адреса аптек</a></li>
+               <li><a href="#">Доставка</a></li>
+               <li><a href="#">О нас</a></li>
+               <li><a href="#">Новинки</a></li>
+                <li><img src="images/connect.svg" alt=""><a href="#">Быстрая связь</a></li>
+            </ul>
+            <div class="ph-number">
+               <img src="images/phone-icon.svg" alt="Phone icon">
+               <p class="ph-number">+79990000000</p>
+            </div>
+            <div class="choice-city">
+               <a class="choice-city-1" href="#">Уссурийск</a>
+               <div></div>
+               <a class="choice-city-2" href="#">п.Михайловка</a>
+            </div>
+         </div>
+             <div class="hat-page">
+        <div class="wrapper">
+               <div class="hat-header flex">
+                  <button class="catalog-btn">
+                     <img src="images/burger-button.svg" alt="Menu icon">
+                     <p>Каталог товаров</p>
+                  </button>
+                  <div class="hat-market">
+                     <form id="form-search" class="search">
+                        <input  type="text">
+                        <button  form="form-search" class="search-btn" ><img src="images/find-icon.svg" alt="Find icon"></button>
+                     </form>
+                     <a href="#" class="favorite"><img src="images/favorite-icon.svg" alt="Favorite"></a>
+                     <a href="#" class="basket"><img src="images/basket-logo.svg" alt="Market basket"></a>
+                  </div>
+               </div>
+        </div>
+   </div>
+      </div>
+    </header>       
+    <header class="header-mobile">
+      <div class="wrapper">
+         <div class="header-mobile__items">
+            <div class="contacts">
+               <div class="city-mobile">
+                  <img src="images/geolocation-icon.svg" alt="Geolocation icon">
+                  <button href="#">г. Уссурийск</button>
+               </div>
+               <div class="ph-number-mobile">
+                  <img src="images/phone-icon.svg" alt="Phone icon">
+                  <p class="ph-number-mobile">+79990000000</p>
+               </div>
+            </div>
+            <div class="header-menu-mobile">
+               <img class="bars-mobile" src="images/bars-icon.svg" alt="Burger">
+               <a href="index.html"><img class="logo-mobile" src="images/logo.svg" alt="Logo"></a>
+               <img class="favorite-mobile" src="images/favorite-icon.svg" alt="Favorite icon">
+               <img class="basket-mobile" src="images/basket-logo.svg" alt="Shopping basket">
+            </div>
+            <form id="form-search-mobile" class="search-mobile">
+               <input value="Введите название товара" type="text">
+               <button  form="form-search-mobile" class="search-btn-mobile" ><img src="images/find-icon.svg" alt="Find icon"></button>
+            </form>
+         </div>
+      </div>
+    </header>
+
+   <!-- PAGE -->
+
+   <div class="page">
+      <div class="slider">
+         <div class="card-slider__items">
+            <div class="card-slider__item"></div>
+            <div class="card-slider__item"></div>
+            <div class="card-slider__item"></div>
+            <div class="card-slider__item"></div>
+         </div>
+         <div class="paganation-slider__items">
+            <div class="paganation-slider__item"></div>
+            <div class="paganation-slider__item"></div>
+            <div class="paganation-slider__item"></div>
+            <div class="paganation-slider__item"></div>
+         </div>
+      </div>
+         <div class="wrapper">
+            <div class="hat-page">
+               <div class="hat-main flex">
+                  <button class="catalog-btn">
+                     <img src="images/burger-button.svg" alt="Menu icon">
+                     <p>Каталог товаров</p>
+                  </button>
+                  <div class="hat-market">
+                     <form id="form-search" class="search">
+                        <input value="Введите название товара" type="text">
+                        <button  form="form-search" class="search-btn" ><img src="images/find-icon.svg" alt="Find icon"></button>
+                     </form>
+                     <a href="#" class="favorite"><img src="images/favorite-icon.svg" alt="Favorite"></a>
+                     <a href="basket.html" class="basket"><img src="images/basket-logo.svg" alt="Market basket"></a>
+                  </div>
+               </div>
+               <div class="market-add">
+                  <div class="paganation-market__items">
+                     <div class="paganation-market__item paganation-market__item-1"><button>1</button></div>
+                     <div class="paganation-market__item paganation-market__item-2"><button>2</button></div>
+                     <div class="paganation-market__item paganation-market__item-3"><button>3</button></div>
+                     <div class="paganation-market__item paganation-market__item-4"><button>4</button></div>
+                     <div class="paganation-market__item paganation-market__item-5"><button>5</button></div>
+                     <div class="paganation-market__item paganation-market__item-6"><button>6</button></div>
+                  </div>
+                  <div class="market-add-btns">
+                     <div class="btn-sort d-flex align-items-center">
+                        <button class="sort">
+                           <p>Сортировать</p>
+                           <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.8056 7.83242C15.6933 7.94365 15.5456 8 15.3979 8C15.2502 8 15.1025 7.94441 14.9902 7.83242L8.47499 1.37957L1.9598 7.83242C1.73442 8.05564 1.36902 8.05564 1.14364 7.83242C0.918265 7.60919 0.918265 7.24729 1.14364 7.02407L8.06653 0.167417C8.29191 -0.0558055 8.65731 -0.0558055 8.88269 0.167417L15.8056 7.02407C16.031 7.24729 16.031 7.60919 15.8056 7.83242Z" fill="#C6E4A1"/>
+                              </svg>
+                        </button>
+                     </div>
+                     <button class="displaycards"><p>Отображать по 10 товаров</p><svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.8056 7.83242C15.6933 7.94365 15.5456 8 15.3979 8C15.2502 8 15.1025 7.94441 14.9902 7.83242L8.47499 1.37957L1.9598 7.83242C1.73442 8.05564 1.36902 8.05564 1.14364 7.83242C0.918265 7.60919 0.918265 7.24729 1.14364 7.02407L8.06653 0.167417C8.29191 -0.0558055 8.65731 -0.0558055 8.88269 0.167417L15.8056 7.02407C16.031 7.24729 16.031 7.60919 15.8056 7.83242Z" fill="#C6E4A1"/>
+                        </svg></button>
+                  </div>
+               </div>
+            </div>
+            <div class="header-page">
+               <h2 class="h-market">Питание</h2>
+               <button class="filters-mobile">Фильтры</button>
+            </div>
+            
+            <!-- MARKET PAGE -->
+            <div class="market-page">
+               <div class="market-page-colums">
+
+                  <!-- ASIDE -->
+                  
+                  <aside class="page-aside">
+                     <div class="select__items">
+                        <h5>Цена</h5>
+                        <div class="select__item">
+                           <div class="choice-price">
+                              <p class="choice-price-textfrom" >От</p>
+                              <form action="" class="choice-price-form"><input type="text"></form>
+                              <p class="choice-price-textbefore" >До</p>
+                              <form action="" class="choice-price-form"><input type="text"></form>
+                           </div>
+                           <div class="choice-price-slider">
+                              <div class="around-from"></div>
+                              <div class="price-line"></div>
+                              <div class="around-after"></div>
+                           </div>   
+                           
+                        </div>
+                        <div class="select__item">
+                           <h4>Рекомендуемый возраст</h4>
+                           <div class="checkbox"> 
+                              <label class="checkbox-label">
+                                 <span class="check_box"></span>
+                                 <input class="checkbox-input" type="checkbox">
+                                 <p>не указан</p> 
+                              </label>
+                           </div>
+                           <div class="checkbox"> 
+                              <label class="checkbox-label">
+                                 <span class="check_box"></span>
+                                 <input class="checkbox-input" type="checkbox">
+                                 <p>с 5 лет</p> 
+                              </label>
+                           </div>
+                           <button>Показать всё</button>
+                        </div>
+                        <div class="select__item">
+                           <h4>Бренд</h4>
+                           <div class="checkbox"> 
+                              <label class="checkbox-label">
+                                 <span class="check_box"></span>
+                                 <input class="checkbox-input" type="checkbox">
+                                 <p>название</p> 
+                              </label>
+                           </div>
+                           <div class="checkbox"> 
+                              <label class="checkbox-label">
+                                 <span class="check_box"></span>
+                                 <input class="checkbox-input" type="checkbox">
+                                 <p>название</p> 
+                              </label>
+                           </div>
+                           <div class="checkbox"> 
+                              <label class="checkbox-label">
+                                 <span class="check_box"></span>
+                                 <input class="checkbox-input" type="checkbox">
+                                 <p>название</p> 
+                              </label>
+                           </div>
+                           <button>Показать всё</button>
+                        </div>
+                        <div class="select__item">
+                           <h4>Производитель</h4>
+                           <div class="checkbox"> 
+                              <label class="checkbox-label">
+                                 <span class="check_box"></span>
+                                 <input class="checkbox-input" type="checkbox">
+                                 <p>название</p> 
+                              </label>
+                           </div>
+                           <div class="checkbox"> 
+                              <label class="checkbox-label">
+                                 <span class="check_box"></span>
+                                 <input class="checkbox-input" type="checkbox">
+                                 <p>название</p> 
+                              </label>
+                           </div>
+                           <div class="checkbox"> 
+                              <label class="checkbox-label">
+                                 <span class="check_box"></span>
+                                 <input class="checkbox-input" type="checkbox">
+                                 <p>название</p> 
+                              </label>
+                           </div>
+                           <button>Показать всё</button>
+                        </div>
+                        <div class="select__item">
+                           <h4>Наличие</h4>
+                           <div class="checkbox"> 
+                              <label class="checkbox-label">
+                                 <span class="check_box"></span>
+                                 <input class="checkbox-input" type="checkbox">
+                                 <p>адрес аптеки</p> 
+                              </label>
+                           </div>
+                           <div class="checkbox"> 
+                              <label class="checkbox-label">
+                                 <span class="check_box"></span>
+                                 <input class="checkbox-input" type="checkbox">
+                                 <p>адрес аптеки</p> 
+                              </label>
+                           </div>
+                           <div class="checkbox"> 
+                              <label class="checkbox-label">
+                                 <span class="check_box"></span>
+                                 <input class="checkbox-input" type="checkbox">
+                                 <p>адрес аптеки</p> 
+                              </label>
+                           </div>
+                           <button>Показать всё</button>
+                        </div>
+                     </div>
+                     <button class="select-apply">Применить фильтр</button>
+                     <h2 class="h-review">Отзывы</h2>
+                     <div class="reviews__items">
+                        <div class="reviews__item">
+                           <h5 class="name-review">Елена</h5>
+                           <span>14.02.2022 20:47:35</span>
+                           <p class="text-review">
+                              Пользуемся услугами Здравницей много лет -только положительные отзывы и благодарность за ассортимент и оперативность!!!Желаем дальнейшего процветания!!
+                           </p>
+                        </div>
+                        <div class="reviews__item">
+                           <h5 class="name-review">Елена</h5>
+                           <span>14.02.2022 20:47:35</span>
+                           <p class="text-review">
+                              Пользуемся услугами Здравницей много лет -только положительные отзывы и благодарность за ассортимент и оперативность!!!Желаем дальнейшего процветания!!
+                           </p>
+                        </div>
+                        <button href="#" class="all-reviwes">Посмотреть еще отзывы</button>
+                     </div>
+                     </div>
+                  </aside>
+      
+                  <!-- PAGE -->
+      
+                  <div class="page-content">
+                     <div class="product__items">
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="product__item">
+                        <a href="product_page.html"><img class="product-img" src="images/image-product.png" alt="Product image"></a>
+                           <div class="product-card-info">
+                              <span class="cod-product">Код товара 123456</span>
+                              <p class="product-text">Аквирин орал спрей 25мл</p>
+                              <p class="avail">В наличии</p>
+                              <p class="product-price">129 Р</p>
+                              <button class="add-basket">В корзину</button>
+                              <div class="market-buttons">
+                              <button class="add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="more-cards">Показать еще</button>
+                     <div class="market-add-end">
+                        <div class="paganation-market__items">
+                           <div class="paganation-market__item paganation-market__item-1"><button>1</button></div>
+                           <div class="paganation-market__item paganation-market__item-2"><button>2</button></div>
+                           <div class="paganation-market__item paganation-market__item-3"><button>3</button></div>
+                           <div class="paganation-market__item paganation-market__item-4"><button>4</button></div>
+                           <div class="paganation-market__item paganation-market__item-5"><button>5</button></div>
+                           <div class="paganation-market__item paganation-market__item-6"><button>6</button></div>
+                        </div>
+                        <div class="market-add-btns-end">
+                           <button class="sort"><p>Сортировать</p><svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.8056 7.83242C15.6933 7.94365 15.5456 8 15.3979 8C15.2502 8 15.1025 7.94441 14.9902 7.83242L8.47499 1.37957L1.9598 7.83242C1.73442 8.05564 1.36902 8.05564 1.14364 7.83242C0.918265 7.60919 0.918265 7.24729 1.14364 7.02407L8.06653 0.167417C8.29191 -0.0558055 8.65731 -0.0558055 8.88269 0.167417L15.8056 7.02407C16.031 7.24729 16.031 7.60919 15.8056 7.83242Z" fill="#C6E4A1"/>
+                              </svg></button>
+                           <button class="displaycards"><p>Отображать по 10 товаров</p><svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15.8056 7.83242C15.6933 7.94365 15.5456 8 15.3979 8C15.2502 8 15.1025 7.94441 14.9902 7.83242L8.47499 1.37957L1.9598 7.83242C1.73442 8.05564 1.36902 8.05564 1.14364 7.83242C0.918265 7.60919 0.918265 7.24729 1.14364 7.02407L8.06653 0.167417C8.29191 -0.0558055 8.65731 -0.0558055 8.88269 0.167417L15.8056 7.02407C16.031 7.24729 16.031 7.60919 15.8056 7.83242Z" fill="#C6E4A1"/>
+                              </svg></button>
+                        </div>
+                     </div>
+                  </div>
+                  
+               </div>
+               <div class="review-mobile">
+                  <h2 class="h-review">Отзывы</h2>
+                     <div class="reviews__items">
+                        <div class="reviews__item">
+                           <h5 class="name-review">Елена</h5>
+                           <span>14.02.2022 20:47:35</span>
+                           <p class="text-review">
+                              Пользуемся услугами Здравницей много лет -только положительные отзывы и благодарность за ассортимент и оперативность!!!Желаем дальнейшего процветания!!
+                           </p>
+                        </div>
+                        <div class="reviews__item">
+                           <h5 class="name-review">Елена</h5>
+                           <span>14.02.2022 20:47:35</span>
+                           <p class="text-review">
+                              Пользуемся услугами Здравницей много лет -только положительные отзывы и благодарность за ассортимент и оперативность!!!Желаем дальнейшего процветания!!
+                           </p>
+                        </div>
+                     </div>
+                  <button href="#" class="all-reviwes">Посмотреть еще отзывы</button>
+               </div>
+            </div>
+         
+      </div>
+      <div class="slider-mobile">
+         <div class="wrapper">
+            <div class="slider-mobile__items">
+               <div class="slider-mobile__item">
+               </div>
+               <div class="slider-paganation-mobile">
+                  <div class="slider-paganation-mobile__item"></div>
+                  <div class="slider-paganation-mobile__item"></div>
+                  <div class="slider-paganation-mobile__item"></div>
+                  <div class="slider-paganation-mobile__item"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="page-mobile">
+         <div class="wrapper">
+            <div class="catalog-mobile">
+               <ul class="breadcrumb">
+                  <li><a href="#">Главная</a></li>
+                  <li>Каталог</li>
+               </ul>
+               <h2 class="catalog-h-mobile">Каталог</h2>
+                  <div class="catalog-mobile__items">
+                     <div class="catalog-mobile__item">
+                        <div class="icon">
+                           <img class="catalog-img-mobile" src="images/Nutrition-icon.svg" alt="Nutrition-icon">
+                           <p>Питание</p>
+                        </div>
+                     </div>
+                     <div class="catalog-mobile__item">
+                        <div class="icon">
+                           <img class="catalog-img-mobile" src="images/pharmacy-icon.svg" alt="Pharmacy-icon">
+                           <p>Аптечные<br>товары</p>
+                        </div>
+                     </div>
+                     <div class="catalog-mobile__item">
+                        <div class="icon">
+                           <img class="catalog-img-mobile" src="images/home-catalog-icon.svg" alt="Home-icon">
+                           <p>Для дома</p>
+                        </div>
+                     </div>
+                     <div class="catalog-mobile__item">
+                        <div class="icon">
+                           <img class="kids-img catalog-img-mobile" src="images/stroller-icon.svg" alt="Stroller-icon">
+                           <p>Малышам и&nbsp;мамам</p>
+                        </div>
+                     </div>
+                     <div class="catalog-mobile__item">
+                        <div class="icon">
+                           <img class="catalog-img-mobile" src="images/Cosmetic-icon.svg" alt="Cosmetic-icon">
+                           <p>Косметика</p>
+                        </div>
+                     </div>
+                     <div class="catalog-mobile__item">
+                        <div class="icon">
+                           <img class="catalog-img-mobile" src="images/med-icon.svg" alt="Medical-icon">
+                           <p>Медицинские приборы</p>
+                        </div>
+                     </div>
+                     <div class="catalog-mobile__item">
+                        <div class="icon">
+                           <img class="catalog-img-mobile" src="images/promotions-icon.svg" alt="Promotions icon">
+                           <p class="promotion-item">Акции</p>
+                        </div>
+                     </div>
+                  </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- FOOTER -->
+
+   <footer class="footer">
+      <div class="wrapper">
+         <div class="footer-colums">
+            <div class="footer-colum1">
+               <div class="catalog-footer">
+                  <h2 class="catalog-h-footer">Каталог</h2>
+                  <ul>
+                     <li><a href="#">Питание</a></li>
+                     <li><a href="#">Аптечные товары</a></li>
+                     <li><a href="#">Для дома</a></li>
+                     <li><a href="#">Малышам и мамам</a></li>
+                     <li><a href="#">Косметика</a></li>
+                     <li><a href="#">Медицинские приборы</a></li>
+                     <li><a href="#">Акции</a></li>
+                  </ul>
+               </div>
+               <div class="social-footer">
+                  <h2>Наши страницы в соц.сетях</h2>
+                  <div class="social-images">
+                     <img src="images/vk-icon.svg" alt="">
+                     <img src="images/ok-icon.svg" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="footer-colum2">
+               <div class="Buyer-footer">
+                  <h2 class="Buyer-h-footer">Покупателям</h2>
+                  <ul>
+                     <li><a href="#">Адреса аптек</a></li>
+                     <li><a href="#">Доставка</a></li>
+                     <li><a href="#">О нас</a></li>
+                     <li><a href="#">Новинки</a></li>
+                  </ul>
+               </div>
+            </div>   
+            <div class="footer-colum3">
+               <div class="help-footer">
+                  <h2 class="Buyer-h-footer">Помощь</h2>
+                  <ul>
+                     <li><a href="#">О дистанционной торговле</a></li>
+                     <li><a href="#">Разрешение на дистанционную торговлю</a></li>
+                     <li><a href="#">Пользовательское соглашение</a></li>
+                     <li><a href="#">Согласие на обработку персональных данных</a></li>
+                     <li><a href="#">Политика обработки персональных данных</a></li>
+                  </ul>
+               </div>
+               <div class="footer-mail">
+                  <h2>Подписаться на наши новости</h2>
+                  <div class="mail">
+                     <form id="form-mail"><input type="text"></form>
+                     <button form="form-mail">Подписаться</button>
+                  </div>
+               </div>
+               <div class="checkbox-mail">
+                  <div class="checkbox"> 
+                     <label class="checkbox-label">
+                        <span class="check_box"></span>
+                        <input class="checkbox-input-mail" type="checkbox" form="form-mail" required>
+                        <p>Соглашаюсь получать новостную рассылку</p> 
+                     </label>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="end-title">
+            <p>“Здравница” 2022. Все права защищены.</p> 
+         </div>
+      </div>
+   </footer>
+   <div class="footer-mobile">
+      <div class="wrapper">
+         <div class="btns-footer-mobile">
+            <button class="list">
+               <h4>Каталог</h4>
+               <img src="images/arrow-down-icon.svg" alt="Arrow down">
+            </button>
+            <button class="list">
+               <h4>Покупателям</h4>
+               <img src="images/arrow-down-icon.svg" alt="Arrow down">
+            </button>
+            <button class="list">
+               <h4>Помощь</h4>
+               <img src="images/arrow-down-icon.svg" alt="Arrow down">
+            </button>
+         </div> 
+         <div class="social-footer-mobile">
+            <h3>Наши страницы в соц.сетях</h3>
+            <div class="social-footer-img-mobile">
+               <img src="images/vk-icon.svg" alt="VK icon">
+               <img src="images/ok-icon.svg" alt="Ok icon">
+            </div>
+         </div>
+         <div class="mail-footer-mobile">
+            <h3>Подписаться на наши новости</h3>
+            <form id="mail-footer-mobile">
+               <input type="text">
+               <button form="mail-footer-mobile">Подписаться</button>  
+            </form>
+            <div class="checkbox-mail-mobile">
+               <div class="checkbox"> 
+                  <label class="checkbox-label">
+                     <span class="check_box"></span>
+                     <input class="checkbox-input-mail-mobile" type="checkbox" form="form-mail-mobile" required>
+                     <p>Соглашаюсь получать новостную рассылку</p> 
+                  </label>
+               </div>
+            </div>
+         </div>
+         <div class="end-title-mobile">
+            <p>“Здравница” 2022.<br>Все права защищены.</p> 
+         </div>
+      </div>
+   </div>
+</body>
+</html>

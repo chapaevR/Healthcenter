@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/Lato/lato.css">
+</head>
+<body>
+    <header class="header">
+      <div class="wrapper">
+         <div class="up">
+            <a href="index.html"> <img class="logo" src="images/logo.svg" alt="Logo"></a>
+            <div class="city">
+               <img src="images/geolocation-icon.svg" alt="Geolocation icon">
+               <button href="#">Уссурийск</button>
+            </div>
+            <img class="burger-mobile" src="images/bars-icon.svg" alt="Bars">
+         </div>
+         <div class="down">
+            <ul class="header-menu">
+               <li><a href="#">Адреса аптек</a></li>
+               <li><a href="#">Доставка</a></li>
+               <li><a href="#">О нас</a></li>
+               <li><a href="#">Новинки</a></li>
+                <li><img src="images/connect.svg" alt=""><a href="#">Быстрая связь</a></li>
+            </ul>
+            <div class="ph-number">
+               <img src="images/phone-icon.svg" alt="Phone icon">
+               <p class="ph-number">+79990000000</p>
+            </div>
+            <div class="choice-city">
+               <a class="choice-city-1" href="#">Уссурийск</a>
+               <div></div>
+               <a class="choice-city-2" href="#">п.Михайловка</a>
+            </div>
+         </div>
+             <div class="hat-page">
+        <div class="wrapper">
+               <div class="hat-header flex">
+                  <button class="catalog-btn">
+                     <img src="images/burger-button.svg" alt="Menu icon">
+                     <p>Каталог товаров</p>
+                  </button>
+                  <div class="hat-market">
+                     <form id="form-search" class="search">
+                        <input  type="text">
+                        <button  form="form-search" class="search-btn" ><img src="images/find-icon.svg" alt="Find icon"></button>
+                     </form>
+                     <a href="#" class="favorite"><img src="images/favorite-icon.svg" alt="Favorite"></a>
+                     <a href="#" class="basket"><img src="images/basket-logo.svg" alt="Market basket"></a>
+                  </div>
+               </div>
+        </div>
+   </div>
+      </div>
+    </header>       
+    <header class="header-mobile">
+      <div class="wrapper">
+         <div class="header-mobile__items">
+            <div class="contacts">
+               <div class="city-mobile">
+                  <img src="images/geolocation-icon.svg" alt="Geolocation icon">
+                  <button href="#">г. Уссурийск</button>
+               </div>
+               <div class="ph-number-mobile">
+                  <img src="images/phone-icon.svg" alt="Phone icon">
+                  <p class="ph-number-mobile">+79990000000</p>
+               </div>
+            </div>
+            <div class="header-menu-mobile">
+               <img class="bars-mobile" src="images/bars-icon.svg" alt="Burger">
+               <a href="index.html"><img class="logo-mobile" src="images/logo.svg" alt="Logo"></a>
+               <img class="favorite-mobile" src="images/favorite-icon.svg" alt="Favorite icon">
+               <img class="basket-mobile" src="images/basket-logo.svg" alt="Shopping basket">
+            </div>
+            <form id="form-search-mobile" class="search-mobile">
+               <input value="Введите название товара" type="text">
+               <button  form="form-search-mobile" class="search-btn-mobile" ><img src="images/find-icon.svg" alt="Find icon"></button>
+            </form>
+         </div>
+      </div>
+    </header>
+    <div class="pharmacy-selection">
+        <div class="wrapper">
+            <ul class="crumbs">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="basket.html">Корзина</a></li>
+                <li class="crumb-active">Выберите аптеку и дату получения заказа</li>
+            </ul>
+            <h2 class="h-page h-page-selection">Выберите аптеку и дату получения заказа</h2>
+            <div class="selection__items">
+                <div class="selection__item">
+                    <div class="pharmacy-select">
+                        <p>Аптека на Русской, 4</p>
+                        <span>г. Уссурийск, ул. Русская, д. 4</span>
+                    </div>
+                    <div class="time-select flex">
+                        <div class="text-time-select">
+                            <p class="day-time">Сегодня</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-time-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                    <div class="date-select flex">
+                        <div class="text-date-select">
+                            <p class="date-time">8.04.2022</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-date-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="selection__item">
+                    <div class="pharmacy-select">
+                        <p>Аптека на Русской, 4</p>
+                        <span>г. Уссурийск, ул. Русская, д. 4</span>
+                    </div>
+                    <div class="time-select flex">
+                        <div class="text-time-select">
+                            <p class="day-time">Сегодня</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-time-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                    <div class="date-select flex">
+                        <div class="text-date-select">
+                            <p class="date-time">8.04.2022</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-date-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="selection__item">
+                    <div class="pharmacy-select">
+                        <p>Аптека на Русской, 4</p>
+                        <span>г. Уссурийск, ул. Русская, д. 4</span>
+                    </div>
+                    <div class="time-select flex">
+                        <div class="text-time-select">
+                            <p class="day-time">Сегодня</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-time-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                    <div class="date-select flex">
+                        <div class="text-date-select">
+                            <p class="date-time">8.04.2022</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-date-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="selection__item">
+                    <div class="pharmacy-select">
+                        <p>Аптека на Русской, 4</p>
+                        <span>г. Уссурийск, ул. Русская, д. 4</span>
+                    </div>
+                    <div class="time-select flex">
+                        <div class="text-time-select">
+                            <p class="day-time">Сегодня</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-time-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                    <div class="date-select flex">
+                        <div class="text-date-select">
+                            <p class="date-time">8.04.2022</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-date-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="selection__item">
+                    <div class="pharmacy-select">
+                        <p>Аптека на Русской, 4</p>
+                        <span>г. Уссурийск, ул. Русская, д. 4</span>
+                    </div>
+                    <div class="time-select flex">
+                        <div class="text-time-select">
+                            <p class="day-time">Сегодня</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-time-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                    <div class="date-select flex">
+                        <div class="text-date-select">
+                            <p class="date-time">8.04.2022</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-date-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="selection__item">
+                    <div class="pharmacy-select">
+                        <p>Аптека на Русской, 4</p>
+                        <span>г. Уссурийск, ул. Русская, д. 4</span>
+                    </div>
+                    <div class="time-select flex">
+                        <div class="text-time-select">
+                            <p class="day-time">Сегодня</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-time-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                    <div class="date-select flex">
+                        <div class="text-date-select">
+                            <p class="date-time">8.04.2022</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-date-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="selection__item">
+                    <div class="pharmacy-select">
+                        <p>Аптека на Русской, 4</p>
+                        <span>г. Уссурийск, ул. Русская, д. 4</span>
+                    </div>
+                    <div class="time-select flex">
+                        <div class="text-time-select">
+                            <p class="day-time">Сегодня</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-time-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                    <div class="date-select flex">
+                        <div class="text-date-select">
+                            <p class="date-time">8.04.2022</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-date-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="selection__item">
+                    <div class="pharmacy-select">
+                        <p>Аптека на Русской, 4</p>
+                        <span>г. Уссурийск, ул. Русская, д. 4</span>
+                    </div>
+                    <div class="time-select flex">
+                        <div class="text-time-select">
+                            <p class="day-time">Сегодня</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-time-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                    <div class="date-select flex">
+                        <div class="text-date-select">
+                            <p class="date-time">8.04.2022</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-date-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="selection__item">
+                    <div class="pharmacy-select">
+                        <p>Аптека на Русской, 4</p>
+                        <span>г. Уссурийск, ул. Русская, д. 4</span>
+                    </div>
+                    <div class="time-select flex">
+                        <div class="text-time-select">
+                            <p class="day-time">Сегодня</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-time-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                    <div class="date-select flex">
+                        <div class="text-date-select">
+                            <p class="date-time">8.04.2022</p>
+                            <p class="attention-time">Время сборки заказа увеличено,<br> ожидайте сообщение о готовности</p>
+                        </div>
+                        <div class="price-date-select flex">
+                            <div class="price-pharmacy">129.00 ₽</div>
+                            <div class="old-price-pharmacy">159.00 ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular">
+                <h4>Популярный товары</h4>
+                    <div class="popular__items">
+                        <div class="popular__item">
+                           <img class="popular-product-img" src="images/image-product-basket.png" alt="Product image">
+                           <div class="popular-product-card-info">
+                              <span class="popular-cod-product">Код товара 123456</span>
+                              <p class="popular-product-text">Аквирин орал спрей 25мл</p>
+                              <p class="popular-avail">В наличии</p>
+                              <p class="popular-product-price">129 Р</p>
+                              <button class="popular-add-basket">В корзину</button>
+                              <div class="popular-market-buttons">
+                              <button class="popular-add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular__item">
+                           <img class="popular-product-img" src="images/image-product-basket.png" alt="Product image">
+                           <div class="popular-product-card-info">
+                              <span class="popular-cod-product">Код товара 123456</span>
+                              <p class="popular-product-text">Аквирин орал спрей 25мл</p>
+                              <p class="popular-avail">В наличии</p>
+                              <p class="popular-product-price">129 Р</p>
+                              <button class="popular-add-basket">В корзину</button>
+                              <div class="popular-market-buttons">
+                              <button class="popular-add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular__item">
+                           <img class="popular-product-img" src="images/image-product-basket.png" alt="Product image">
+                           <div class="popular-product-card-info">
+                              <span class="popular-cod-product">Код товара 123456</span>
+                              <p class="popular-product-text">Аквирин орал спрей 25мл</p>
+                              <p class="popular-avail">В наличии</p>
+                              <p class="popular-product-price">129 Р</p>
+                              <button class="popular-add-basket">В корзину</button>
+                              <div class="popular-market-buttons">
+                              <button class="popular-add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular__item">
+                           <img class="popular-product-img" src="images/image-product-basket.png" alt="Product image">
+                           <div class="popular-product-card-info">
+                              <span class="popular-cod-product">Код товара 123456</span>
+                              <p class="popular-product-text">Аквирин орал спрей 25мл</p>
+                              <p class="popular-avail">В наличии</p>
+                              <p class="popular-product-price">129 Р</p>
+                              <button class="popular-add-basket">В корзину</button>
+                              <div class="popular-market-buttons">
+                              <button class="popular-add-favorite">
+                                 <img src="images/favorite-btn-icon.svg" alt="Shopping basket">
+                                 <p>В избранное</p>
+                              </button>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+      <div class="wrapper">
+         <div class="footer-colums">
+            <div class="footer-colum1">
+               <div class="catalog-footer">
+                  <h2 class="catalog-h-footer">Каталог</h2>
+                  <ul>
+                     <li><a href="#">Питание</a></li>
+                     <li><a href="#">Аптечные товары</a></li>
+                     <li><a href="#">Для дома</a></li>
+                     <li><a href="#">Малышам и мамам</a></li>
+                     <li><a href="#">Косметика</a></li>
+                     <li><a href="#">Медицинские приборы</a></li>
+                     <li><a href="#">Акции</a></li>
+                  </ul>
+               </div>
+               <div class="social-footer">
+                  <h2>Наши страницы в соц.сетях</h2>
+                  <div class="social-images">
+                     <img src="images/vk-icon.svg" alt="">
+                     <img src="images/ok-icon.svg" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="footer-colum2">
+               <div class="Buyer-footer">
+                  <h2 class="Buyer-h-footer">Покупателям</h2>
+                  <ul>
+                     <li><a href="#">Адреса аптек</a></li>
+                     <li><a href="#">Доставка</a></li>
+                     <li><a href="#">О нас</a></li>
+                     <li><a href="#">Новинки</a></li>
+                  </ul>
+               </div>
+            </div>   
+            <div class="footer-colum3">
+               <div class="help-footer">
+                  <h2 class="Buyer-h-footer">Помощь</h2>
+                  <ul>
+                     <li><a href="#">О дистанционной торговле</a></li>
+                     <li><a href="#">Разрешение на дистанционную торговлю</a></li>
+                     <li><a href="#">Пользовательское соглашение</a></li>
+                     <li><a href="#">Согласие на обработку персональных данных</a></li>
+                     <li><a href="#">Политика обработки персональных данных</a></li>
+                  </ul>
+               </div>
+               <div class="footer-mail">
+                  <h2>Подписаться на наши новости</h2>
+                  <div class="mail">
+                     <form id="form-mail"><input type="text"></form>
+                     <button form="form-mail">Подписаться</button>
+                  </div>
+               </div>
+               <div class="checkbox-mail">
+                  <div class="checkbox"> 
+                     <label class="checkbox-label">
+                        <span class="check_box"></span>
+                        <input class="checkbox-input-mail" type="checkbox" form="form-mail" required>
+                        <p>Соглашаюсь получать новостную рассылку</p> 
+                     </label>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="end-title">
+            <p>“Здравница” 2022. Все права защищены.</p> 
+         </div>
+      </div>
+    </footer>
+    <footer class="footer-mobile">
+      <div class="wrapper">
+         <div class="btns-footer-mobile">
+            <button class="list">
+               <h4>Каталог</h4>
+               <img src="images/arrow-down-icon.svg" alt="Arrow down">
+            </button>
+            <button class="list">
+               <h4>Покупателям</h4>
+               <img src="images/arrow-down-icon.svg" alt="Arrow down">
+            </button>
+            <button class="list">
+               <h4>Помощь</h4>
+               <img src="images/arrow-down-icon.svg" alt="Arrow down">
+            </button>
+         </div> 
+         <div class="social-footer-mobile">
+            <h3>Наши страницы в соц.сетях</h3>
+            <div class="social-footer-img-mobile">
+               <img src="images/vk-icon.svg" alt="VK icon">
+               <img src="images/ok-icon.svg" alt="Ok icon">
+            </div>
+         </div>
+         <div class="mail-footer-mobile">
+            <h3>Подписаться на наши новости</h3>
+            <form id="mail-footer-mobile">
+               <input type="text">
+               <button form="mail-footer-mobile">Подписаться</button>  
+            </form>
+            <div class="checkbox-mail-mobile">
+               <div class="checkbox"> 
+                  <label class="checkbox-label">
+                     <span class="check_box"></span>
+                     <input class="checkbox-input-mail-mobile" type="checkbox" form="form-mail-mobile" required>
+                     <p>Соглашаюсь получать новостную рассылку</p> 
+                  </label>
+               </div>
+            </div>
+         </div>
+         <div class="end-title-mobile">
+            <p>“Здравница” 2022.<br>Все права защищены.</p> 
+         </div>
+      </div>
+    </footer>
+</body>
+</html>
